@@ -12,12 +12,12 @@ const KEYBOARDS = {
       [
         { 
           text: "> Updates Channel <", 
-          url: "https://t.me/NexonBots" 
+          url: "https://t.me/HRtempmail" 
         }
       ],
       [{ 
         text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
+        url: `https://t.me/HRtempmail`
       }],
     ]
   } satisfies InlineKeyboardMarkup,
@@ -25,13 +25,13 @@ const KEYBOARDS = {
   main: {
     inline_keyboard: [
       [
-        { text: "Generate", callback_data: "generate" },
-        { text: "Refresh", callback_data: "refresh" },
-        { text: "Close", callback_data: "close" }
+        { text: "Generate 🤖", callback_data: "generate" },
+        { text: "Refresh 💀", callback_data: "refresh" },
+        { text: "Close 😏", callback_data: "close" }
       ],
       [{ 
         text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
+        url: `https://t.me/HRtempmail`
       }],
     ]
   } satisfies InlineKeyboardMarkup,
@@ -39,12 +39,12 @@ const KEYBOARDS = {
   message: {
     inline_keyboard: [
       [
-        { text: "Refresh", callback_data: "refresh" },
-        { text: "Close", callback_data: "close" }
+        { text: "Refresh 💀", callback_data: "refresh" },
+        { text: "Close 😏", callback_data: "close" }
       ],
       [{ 
         text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
+        url: `https://t.me/HRtempmail`    
       }],
     ]
   } satisfies InlineKeyboardMarkup,
@@ -54,12 +54,12 @@ const KEYBOARDS = {
       [
         { 
           text: "Join Channel", 
-          url: "https://t.me/NexonBots" 
+          url: "https://t.me/HRtempmail" 
         }
       ],
       [{ 
         text: "Source Code ↗️", 
-        url: `https://github.com/Private-Bots-Official/Temp-Mail-Bot`
+        url: `https://t.me/HRtempmail`
       }],
     ]
   } satisfies InlineKeyboardMarkup
@@ -93,7 +93,7 @@ export const BotController = {
       if (!isSubscribed) {
         return TelegramService.sendMessage(
           chatId,
-          "❌ *Please join our channel to use this bot:* [@NexonBots](https://t.me/NexonBots)",
+          "❌ *Please join our channel to use this bot:* [@HRtempmail](https://t.me/HRtempmail)",
           {
             parse_mode: "Markdown",
             reply_markup: KEYBOARDS.joinChannel,
@@ -255,3 +255,4 @@ export const BotController = {
     }
   }
 };
+
