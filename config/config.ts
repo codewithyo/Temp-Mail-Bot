@@ -1,6 +1,6 @@
-export const BOT_TOKEN = Deno.env.get("BOT_TOKEN")!;
+export const BOT_TOKEN = Deno.env.get("8318603696:AAFYPNsibQR0xmsHLwvvxsNiYILlzXUIivA")!;
 console.log(BOT_TOKEN);
-export const CHANNEL_USERNAME = (Deno.env.get("CHANNEL_USERNAME") || "@Private_Bots").replace(/^@?/, "@");
+export const CHANNEL_USERNAME = (Deno.env.get("@HRtempmail") || "@HRtempmail").replace(/^@?/, "@");
 export const GUERRILLA_MAIL_API = "https://api.guerrillamail.com/ajax.php";
 export const ADMIN_ID = 7990155194;
 
@@ -30,4 +30,5 @@ console.log(MONGO_URI);
 
 export const USE_DB = Boolean(MONGO_URI);
 export const CLEAN_USERNAME = CHANNEL_USERNAME.replace(/@/g, '');
+
 
